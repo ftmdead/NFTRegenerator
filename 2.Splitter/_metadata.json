@@ -1,0 +1,50 @@
+example 
+
+This:
+
+[
+  {
+    "name": "Gimp #1",
+    "description": "The strangest family on Fantom..",
+    "image": "https://example.mypninata.cloud/ifps/example.1png",
+    "edition": 1,
+    "attributes": [
+      {
+        "trait_type": "Legends",
+        "value": "The Dead",
+        "frequency": "0.04%",
+        "count": 1
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+]
+
+Becomes this:
+
+[
+  {
+    "edition": 1,
+    "data": {
+      "name": "Gimp #1",
+      "description": "The strangest family on Fantom..",
+      "image": "https://example.mypninata.cloud/ifps/example.1png",
+      "edition": 1,
+      "attributes": [
+        {
+          "trait_type": "Legends",
+          "value": "The Dead",
+          "frequency": "0.04%",
+          "count": 1
+        },
+        {
+          "trait_type": "Infection Status",
+          "value": "Immune",
+          "frequency": "0.48%",
+          "count": 12
+        }
+      ],
+      "compiler": "HashLips Art Engine"
+    }
+  },
+]
